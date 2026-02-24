@@ -1,0 +1,36 @@
+*{box-sizing:border-box}html,body{margin:0;padding:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,"Noto Sans","Helvetica Neue",Arial,"Apple Color Emoji","Segoe UI Emoji";color:#0b1020;background:#0a0f1a}
+.container{max-width:1120px;margin:0 auto;padding:0 20px}
+.row{display:flex;gap:16px}
+.between{justify-content:space-between}.center{align-items:center}
+.nav{position:sticky;top:0;background:rgba(10,15,26,.8);backdrop-filter:saturate(150%) blur(8px);border-bottom:1px solid #111a2c}
+.nav .brand{font-weight:700;color:#e6eeff}
+.nav nav a{color:#b7c3e0;margin-left:18px;text-decoration:none;font-weight:500}
+.nav nav a.btn{margin-left:24px}
+.hero{padding:88px 0 56px;background:radial-gradient(80% 150% at 50% -30%,#1a2440 0%,#0a0f1a 70%)}
+.hero h1{font-size:42px;line-height:1.1;margin:0 0 12px;color:#f1f5ff}
+.hero p{color:#c2cbe0;max-width:800px}
+.cta{margin-top:20px;display:flex;gap:12px}
+.trust{margin-top:16px;color:#8ea2d5;display:flex;gap:18px;flex-wrap:wrap}
+.section{padding:64px 0}
+.section.alt{background:#0c1220}
+.grid{display:grid;grid-template-columns:repeat(12,1fr);gap:16px}
+.card{grid-column:span 6;background:#0f1526;border:1px solid #151e33;border-radius:12px;padding:18px}
+.card h3{margin:0 0 8px;color:#eaf0ff}
+.card p, .card li{color:#b7c3e0}
+.pricing .card{grid-column:span 4}
+.pricing .card.highlight{border-color:#3657ff;box-shadow:0 0 0 1px #3657ff33}
+.steps{margin:0;padding-left:18px;color:#c2cbe0}
+.steps li{margin:8px 0}
+.note{color:#8ea2d5}
+.contact form.card{max-width:800px;margin:0 auto}
+label{display:flex;flex-direction:column;gap:6px;color:#c2cbe0}
+input,textarea{background:#0a0f1a;border:1px solid #1a2440;color:#e6eeff;border-radius:8px;padding:10px}
+.btn{display:inline-block;padding:10px 14px;border-radius:10px;border:1px solid #2a3866;color:#dbe5ff;text-decoration:none}
+.btn:hover{border-color:#3657ff}
+.btn-primary{background:#3657ff;border-color:#3657ff;color:#fff}
+.btn-ghost{background:transparent}
+.btn-small{padding:8px 10px;font-size:14px}
+.footer{padding:28px 0;border-top:1px solid #111a2c;color:#8ea2d5}
+.socials a{color:#8ea2d5;text-decoration:none;margin-left:14px}
+.price{font-weight:700;color:#e6eeff;margin:8px 0}
+@media (max-width:900px){.grid{grid-template-columns:repeat(6,1fr)}.card{grid-column:span 6}.pricing .card{grid-column:span 6}.hero h1{font-size:34px}}

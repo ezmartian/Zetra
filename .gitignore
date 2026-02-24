@@ -1,0 +1,4 @@
+# node / tooling
+node_modules/
+.DS_Store
+*.log
